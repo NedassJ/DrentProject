@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+
+* {
+  font-family: 'Audiowide', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin: 0 0 34px; /* bottom = footer height */
+  background-image: "bg.jpg";
+  background-color: teal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
